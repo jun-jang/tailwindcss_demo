@@ -67,3 +67,8 @@ html {
 .inventory {
   @apply text-[#393c41] bg-white bg-opacity-60 ml-8;
 }
+
+.down_svg {
+  @apply block w-full h-20 mx-auto absolute top-[93%] ;
+  /* @apply block w-full h-20 mx-auto absolute top-[93%] animate-bounce; */
+}

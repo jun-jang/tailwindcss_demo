@@ -74,6 +74,10 @@ export default function Home() {
           <button className="btn">Custom Order</button>
           <button className="btn inventory">Existing Inventory</button>
         </div>
+
+        <a href="#model3">
+          <svg className = "down_svg" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="var(--tds-icon--fill, #171a20)" stroke-width="1.5" d="m19.5 12.5-4.5 4-4.5-4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
 			</body>
 		</>
 	);
