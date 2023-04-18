@@ -23,7 +23,7 @@ export default function Home() {
 					{/* Logo */}
 					<img src="./images/tesla.svg" alt="tesla logo" className="h-6" />
 					{/* Nav Links */}
-					<div>
+					<div className = "hidden lg:block">
 						<a href="#modelS" className="nav_link">
 							Model S
 						</a>
@@ -45,20 +45,18 @@ export default function Home() {
 					</div>
 					{/* Ext Links */}
 					<div>
-						<a href="#shop" className="nav_link">
-							{" "}
-							Shop{" "}
+						<a href="#shop" className="nav_link hidden lg:block">
+							Shop
 						</a>
-						<a href="#account" className="nav_link">
-							{" "}
+						<a href="#account" className="nav_link hidden lg:block">
 							Account
 						</a>
 						<a href="#menu" className="nav_link">
-							{" "}
 							Menu
 						</a>
 					</div>
         </header>
+
         {/* Model S Section Start */}
 				<section id="modelS" class="car_section">
 					<img
