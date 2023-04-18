@@ -69,7 +69,11 @@ export default function Home() {
 				<div className="car_details transform_50">
 					<h1 class="model_name"> Model S</h1>
 					<h2 class="tag_line"> Order Online for <span class="underline cursor-pointer">Touchles Delivery</span></h2>
-				</div>
+        </div>
+        <div class="car_buttons transform_50">
+          <button className="btn">Custom Order</button>
+          <button className="btn inventory">Existing Inventory</button>
+        </div>
 			</body>
 		</>
 	);
