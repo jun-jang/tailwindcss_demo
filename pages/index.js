@@ -58,10 +58,18 @@ export default function Home() {
 							Menu
 						</a>
 					</div>
-        </header>
-        <section id="modelS" class="car_section">
-          <img src = "./images/ModelS.jfif" alt = "Model S Image" className="car_img"></img>
-        </section>
+				</header>
+				<section id="modelS" class="car_section">
+					<img
+						src="./images/ModelS.jfif"
+						alt="Model S Image"
+						className="car_img"
+					></img>
+				</section>
+				<div className="car_details transform_50">
+					<h1 class="model_name"> Model S</h1>
+					<h2 class="tag_line"> Order Online for <span class="underline cursor-pointer">Touchles Delivery</span></h2>
+				</div>
 			</body>
 		</>
 	);
