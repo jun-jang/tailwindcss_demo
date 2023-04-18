@@ -58,7 +58,10 @@ export default function Home() {
 							Menu
 						</a>
 					</div>
-				</header>
+        </header>
+        <section id="modelS" class="car_section">
+          <img src = "./images/ModelS.jfif" alt = "Model S Image" className="car_img"></img>
+        </section>
 			</body>
 		</>
 	);

@@ -31,3 +31,11 @@ html {
 .nav_link {
   @apply text-2xl font-semibold text-[#181b21] mx-[0.8rem] px-[0.8rem] py-[0.4rem] rounded-[0.8rem] bg-transparent hover:bg-[#181b21] hover:bg-opacity-10 transition-all duration-300
 }
+
+.car_section {
+  @apply w-full h-screen;
+}
+
+.car_img {
+  @apply w-full h-full object-cover
+}
